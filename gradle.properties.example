@@ -1,0 +1,22 @@
+# Git version configuration
+gitVersion=git describe --tags --always --dirty
+
+# Maven Central Publishing Configuration
+# Use environment variables for security
+
+# Sonatype OSSRH credentials (set as environment variables)
+# MAVEN_CENTRAL_USERNAME=your-ossrh-username
+# MAVEN_CENTRAL_PASSWORD=your-ossrh-password
+
+# PGP signing configuration
+# You can either use signingKey and signingPassword, or set up GPG agent
+signingKey=your-pgp-private-key
+signingPassword=your-pgp-password
+
+# Alternative: Use GPG agent (recommended for production)
+# signing.gnupg.keyName=your-gpg-key-id
+# signing.gnupg.passphrase=your-gpg-passphrase
+
+# Publishing configuration
+# Set to true to publish to Maven Central
+publishToMavenCentral=false 
