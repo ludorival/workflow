@@ -42,7 +42,7 @@ jobs:
           arguments: publish jreleaserDeploy --stacktrace
 
       - name: Test Report
-        uses: dorny/test-reporter@v1
+        uses: dorny/test-reporter@v2
         if: success() || failure()
         with:
           name: JUnit Tests
