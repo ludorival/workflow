@@ -3,7 +3,7 @@ plugins {
     `maven-publish`
     signing
     id("io.github.gradle-nexus.publish-plugin") version "2.0.0"
-    id("org.jreleaser") version "1.16.0"
+    id("org.jreleaser") version "1.26.0"
 }
 
 group = "io.github.ludorival"
